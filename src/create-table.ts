@@ -1,5 +1,6 @@
 import { getClient } from "./utils";
 
+//creating users table
 async function createTable() {
     const createUserTableQuery = `
         CREATE TABLE users (
